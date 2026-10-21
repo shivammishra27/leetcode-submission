@@ -5,11 +5,10 @@ public:
         int i = 0;
         int ss = s.size();
         int j = ss - 1;
-
-        while (i < j) {
+        for (int i = 0; i < j; i++, j--){
             swap(s[i], s[j]);
-            i++;
-            j--;
         }
     }
-};
+
+}
+;
